@@ -48,9 +48,9 @@ def main() -> None:
 
     # TODO: register Scooter with factory.register_kind(...)
     # TODO: print factory.create("scooter").mode()
-    factory.register_kind("scooter", Scooter)   
+    factory.register_kind("scooter", Scooter)
     print(factory.create("scooter").mode())
 
-    
+
 if __name__ == "__main__":
     main()
